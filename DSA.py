@@ -37,9 +37,22 @@ def fun(n):
 fun(10)'''
 
 # Fibonacci using Recursion
-def fibonacci_number(n):
+'''def fibonacci_number(n):
     if n == 0 or n == 1:
         return n
     
     return fibonacci_number(n-1) + fibonacci_number(n-2)
 print(fibonacci_number(34))
+'''
+
+# LISTS in Python
+
+'''list1 = ["Abhinav","Aman","Ravi","Rahul"]
+list1[0] = "Dipanshu"
+print(list1[0])
+print(list1[2])
+print(list1[-1])
+print(len(list1))'''
+
+'''list2 = ["Abhinav",5,9.87,True,2344]
+print(list2)'''
