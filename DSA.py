@@ -56,3 +56,24 @@ print(len(list1))'''
 
 '''list2 = ["Abhinav",5,9.87,True,2344]
 print(list2)'''
+
+# Operations on list
+'''list3 = [34,65,67,37,90,100]
+list3.append(1001)
+list3.append([567,988,5678,4])
+list3.extend([567,988,5678,4])
+print(list3[7][2])'''
+
+'''list4 = [34,65,67,37,90,100]
+list4.insert(3,100)
+print(list4)
+'''
+
+'''list4 = [34,65,67,37,90,100]
+list4.remove(67)
+list4.pop(1) # by default removes last element
+print(list4)
+
+list4.clear()  # deletes the whole list
+print(list4)'''
+
