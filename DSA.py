@@ -77,3 +77,28 @@ print(list4)
 list4.clear()  # deletes the whole list
 print(list4)'''
 
+# Functions in list
+'''list4 = [34,65,67,37,90,100]
+print(min(list4))
+print(max(list4))'''
+
+'''list1 = [4,1,2,42,3,31,222,4,2,4,2,424,1]
+print(list1.count(2))
+list1.sort()
+print(list1)
+list1.reverse()
+print(list1)'''
+
+'''list1 = [1,2,3]
+list2 = list1.copy()
+list2.append(89)
+print(list1,id(list1))
+print(list2,id(list2))'''
+
+
+# SLICING
+'''list1 = [3,4,456,24,312,234,456,42,23]
+print(list1[2:7])
+print(list1[2:8:3])
+print(list1[8:1:-2])
+print(list1[::-1])'''
