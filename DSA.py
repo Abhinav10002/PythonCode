@@ -102,3 +102,21 @@ print(list1[2:7])
 print(list1[2:8:3])
 print(list1[8:1:-2])
 print(list1[::-1])'''
+
+# TUPLES in Python
+'''tuple1 = ("Hello",13,32.678,True)
+print(tuple1)'''
+
+# Strings in Python
+'''name = "Abhinav Kumar Jha"
+print(type(name))
+print(name[4])
+print(name[-2])
+
+print(len(name))
+print(name.lower())
+print(name.upper())
+print(name.capitalize())
+print(name.replace("a","b"))'''
+
+
