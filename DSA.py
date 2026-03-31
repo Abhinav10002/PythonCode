@@ -119,4 +119,31 @@ print(name.upper())
 print(name.capitalize())
 print(name.replace("a","b"))'''
 
+# Prefix sum problem
+'''list1 = [23,4,3,14,56]
+n = len(list1)
+ans = []
+ans.append(list1[0])
 
+for i in range(1,n):
+    x = ans[i - 1] + list1[i]
+    ans.append(x)
+print(ans)'''
+
+'''class Solution:
+    def sortArrayByParity(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+
+        start = 0
+        for i in range(n):
+            if nums[i] % 2 == 0:
+                temp = nums[i]
+                nums[i] = nums[start]
+                nums[start] = temp
+                start += 1
+        
+        return nums'''
+
+'''
+
+'''
