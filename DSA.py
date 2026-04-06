@@ -179,3 +179,10 @@ if "hello" in set1:
     print(True)
 else:
     print(False)
+
+set1 = {1,2,3}
+set2 = set1
+set2.add(400)
+
+print(set1)
+print(set2)
