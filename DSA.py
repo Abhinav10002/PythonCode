@@ -174,4 +174,8 @@ print(len(set1))'''
 
 set1 = {2,4,"hello","abhinav","hello",2,4}
 set1.discard("hello")
-print(set1)
+
+if "hello" in set1:
+    print(True)
+else:
+    print(False)
