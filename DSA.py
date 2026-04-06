@@ -172,7 +172,7 @@ print(len(set1))'''
 set1 = set(list1)
 print(len(set1))'''
 
-set1 = {2,4,"hello","abhinav","hello",2,4}
+'''set1 = {2,4,"hello","abhinav","hello",2,4}
 set1.discard("hello")
 
 if "hello" in set1:
@@ -185,4 +185,22 @@ set2 = set1
 set2.add(400)
 
 print(set1)
-print(set2)
+print(set2)'''
+
+set1 = {1,8,5,2,4}
+set2 = {8,2,9,6}
+# union
+print(set1|set2)
+print(set1.union(set2))
+
+# intersection
+print(set1 & set2)
+print(set1.intersection(set2))
+
+# difference
+print(set1-set2)
+print(set1.difference(set2))
+
+# symmetric_difference
+print(set1^set2)
+print(set1.symmetric_difference(set2))
