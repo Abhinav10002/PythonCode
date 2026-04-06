@@ -185,7 +185,7 @@ set2 = set1
 set2.add(400)
 
 print(set1)
-print(set2)'''
+print(set2)
 
 set1 = {1,8,5,2,4}
 set2 = {8,2,9,6}
@@ -203,4 +203,9 @@ print(set1.difference(set2))
 
 # symmetric_difference
 print(set1^set2)
-print(set1.symmetric_difference(set2))
+print(set1.symmetric_difference(set2))'''
+
+dict1 = {1:"Abhinav","hello":100,10.21:"Hiii","key":True}
+print(dict1)
+print(type(dict1))
+print(len(dict1))
