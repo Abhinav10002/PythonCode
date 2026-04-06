@@ -161,3 +161,17 @@ class Solution:
         return profit
 '''
 
+
+# SETS and Dictionaries
+'''set1 = {2,4,"hello","abhinav","hello",2,4}
+print(len(set1))'''
+
+'''list1 = [3,4,6,3,2,4,56,7,5,2,2,4,6]
+
+# Counting the number of unique elements in this list.
+set1 = set(list1)
+print(len(set1))'''
+
+set1 = {2,4,"hello","abhinav","hello",2,4}
+set1.discard("hello")
+print(set1)
