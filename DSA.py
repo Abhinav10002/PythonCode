@@ -218,3 +218,18 @@ dict1 = {1:"Abhinav",2:"Aman",3:"Rahul",4:"Yash"}
 print(dict1.items())
 for key,value in dict1.items():
     print(key,value)'''
+
+'''list1 = ["Abhinav","Aman","Abhinav","Yash","Aman","Rahul","Abhinav","Yash"]
+
+freq = {}
+
+for name in list1:
+    if name not in freq:
+        freq[name] = 1
+    else:
+        freq[name] += 1
+
+print(freq)'''
+
+# HASHING
+
