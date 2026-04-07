@@ -205,7 +205,16 @@ print(set1.difference(set2))
 print(set1^set2)
 print(set1.symmetric_difference(set2))'''
 
-dict1 = {1:"Abhinav","hello":100,10.21:"Hiii","key":True}
+'''dict1 = {1:"Abhinav","hello":100,10.21:"Hiii","key":True}
+dict1[5] = "Yash"
+dict1.update({1:"Abhinav Kumar Jha",10:"Aman"})
 print(dict1)
-print(type(dict1))
-print(len(dict1))
+dict1.pop(1)
+print(dict1)
+
+
+dict1 = {1:"Abhinav",2:"Aman",3:"Rahul",4:"Yash"}
+
+print(dict1.items())
+for key,value in dict1.items():
+    print(key,value)'''
